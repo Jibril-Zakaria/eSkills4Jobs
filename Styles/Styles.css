@@ -1,0 +1,41 @@
+h1 {font-size: 19px;
+margin-left: 50px;}
+
+form 
+{
+    background: rgb(15, 178, 233);
+    max-width: 600px;
+    margin: 60px;
+     
+}
+
+button{
+
+    background-color: rgb(9, 138, 251);
+    border: 0px;
+    margin-top: 50px;
+    float: right;
+}
+h3
+{background-color: yellow;
+}
+
+img{
+    width: 150px;
+}
+#HH {
+background: #c90b0b;
+font-size: 24px;
+    
+}
+.CC{
+    background-color: yellow;
+    
+}
+.deader{
+    width: 1500px;
+    height:80px ;
+    background-color: blueviolet;
+    float:left;
+    align-items: center;
+}

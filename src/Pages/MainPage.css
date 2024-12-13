@@ -1,0 +1,86 @@
+.mainpagecontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #a00464;
+    color: #fff;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header-container {
+    width: 100%;
+	height: 50px;
+    background-color: #028dff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .school-info {
+    display: flex;
+    align-items: center;
+}
+
+.header .school-info i {
+    margin-right: 10px;
+}
+
+.flexpage {
+    display: flex;
+    flex: 1; /* Fills remaining space below header */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #83065355;
+    padding: 20px;
+    height: 100%; /* Stretches to match parent's height */
+    overflow-y: auto; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #181717;
+    padding: 10px;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ffffff;;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background: #48025d;
+    height: 100%; /* Ensures full height of parent */
+    overflow: auto; /* Prevents layout distortion with long content */
+}

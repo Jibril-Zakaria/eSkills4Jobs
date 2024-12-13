@@ -1,0 +1,52 @@
+/* Container styles */
+.department-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .department-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* List styles */
+  .department-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .department-item {
+    font-size: 1.25rem;
+    color: #555;
+    margin: 10px 0;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .department-item:hover {
+    color: #007BFF;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .department-title {
+      font-size: 1.5rem;
+    }
+  
+    .department-item {
+      font-size: 1rem;
+    }
+  }
+  
